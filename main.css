@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+html, body{
+    font-family: Comfortaa;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+header img{
+    display: block;
+    width: 33%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.Logo{
+    font-size: 1.3rem;
+}
+
+.btn{
+    border: 2px solid rgb(36, 36, 36);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 15px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #b1e4ec;
+    color: #FFFFFF;
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+  
+.coluna {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.coluna img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.btn-veja-mais{
+    margin-bottom: 75px;
+}
+
+footer{
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-top: 15px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+footer a{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    font-size: 2rem;
+}
